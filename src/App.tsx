@@ -5,7 +5,6 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import Column from './components/Column';
 import DarkModeIconButton from './components/DarkModeIconButton';
 import { ColumnType } from './utils/enums';
-import './App.css';
 function App() {
   return (
     <main>
