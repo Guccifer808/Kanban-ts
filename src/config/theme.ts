@@ -1,6 +1,5 @@
 import {extendTheme } from '@chakra-ui/react'
 
-type Props = {}
 
 const theme = extendTheme({
 
