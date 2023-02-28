@@ -4,6 +4,8 @@ import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import Column from './components/Column';
 import DarkModeIconButton from './components/DarkModeIconButton';
+import GithubIconButton from './components/GithubIconButton';
+
 import { ColumnType } from './utils/enums';
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
         bgClip='text'
       >
         Kanban Board
-      </Heading>
+      </Heading>{' '}
+      <GithubIconButton position='absolute' top={0} left={2} />
       <DarkModeIconButton position='absolute' top={0} right={2} />
       <DndProvider backend={HTML5Backend}>
         <Container maxWidth='container.lg' px={4} py={10}>
